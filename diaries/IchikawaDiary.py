@@ -6,4 +6,4 @@ class IchikawaDiary(AbstractDiary):
         return """今日は初めてのグループワークだった。
 途中眠たくなって危なかった。寝てたせいで迷惑かけるのは避けたい。"""
     def get_author(self):
-        return "Nagatani"
+        return "Ichikawa"

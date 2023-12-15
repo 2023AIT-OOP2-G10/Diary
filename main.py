@@ -2,6 +2,7 @@ from diaries.DiarySample import DiarySample
 from diaries.KoukiDiary import DiaryKouki
 from diaries.satosomaDiary import Diarysatou
 from diaries.furutaDiary import Diaryfuruta
+from diaries.ShintaroDaiary import DiaryShintaro
 from diaries.shionDiary import Diaryshion
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(),
@@ -9,6 +10,7 @@ diaries = [DiarySample(),
            Diarysatou(),
            Diaryfuruta(),
            Diaryshion(),
+           DiaryShintaro(),
            ]
 for d in diaries:
     print("---------------------------------")

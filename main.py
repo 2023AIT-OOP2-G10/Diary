@@ -3,12 +3,14 @@ from diaries.KoukiDiary import DiaryKouki
 from diaries.satosomaDiary import Diarysatou
 from diaries.furutaDiary import Diaryfuruta
 from diaries.shionDiary import Diaryshion
+from diaries.ShintaroDaiary import DiaryShintaro
 # ↓のリストには、メンバーの各日記が格納されます。
 diaries = [DiarySample(),
            DiaryKouki(),
            Diarysatou(),
            Diaryfuruta(),
            Diaryshion(),
+           DiaryShintaro(),
            ]
 for d in diaries:
     print("---------------------------------")

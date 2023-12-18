@@ -1,5 +1,6 @@
 from diaries.DiarySample import DiarySample
 from diaries.KoukiDiary import DiaryKouki
+from diaries.NakagawaDiary import DiaryNakagawa
 from diaries.satosomaDiary import Diarysatou
 from diaries.furutaDiary import Diaryfuruta
 from diaries.ShintaroDaiary import DiaryShintaro
@@ -15,6 +16,7 @@ diaries = [DiarySample(),
            DiaryShintaro(),
            Diaryichikawa(),    
            Diarysekiguchi(),
+           DiaryNakagawa(),
            ]
 for d in diaries:
     print("---------------------------------")
